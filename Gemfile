@@ -12,6 +12,7 @@ gem 'active_model_serializers'
 gem 'kaminari'
 gem 'resque'
 gem 'resque-scheduler'
+gem 'dalli', '~> 2.7.6'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

@@ -57,6 +57,7 @@ GEM
       activesupport
     concurrent-ruby (1.0.5)
     crass (1.0.4)
+    dalli (2.7.9)
     erubi (1.7.1)
     et-orbi (1.1.6)
       tzinfo
@@ -186,6 +187,7 @@ DEPENDENCIES
   active_model_serializers
   bootsnap (>= 1.1.0)
   byebug
+  dalli (~> 2.7.6)
   jbuilder (~> 2.5)
   kaminari
   pg (>= 0.18, < 2.0)
