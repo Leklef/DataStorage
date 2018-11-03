@@ -1,6 +1,6 @@
 DataStorageJob:
   every:
-  - "1m"
+  - "20h"
   queue: storage_filling
   class: "DataStorageJob"
   description: "This job will read and save data from the api every 1 day"
