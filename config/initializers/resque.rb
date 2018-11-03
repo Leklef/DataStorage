@@ -1,7 +1,6 @@
 require 'resque-scheduler'
 
-redis_url = ENV["REDISCLOUD_URL"]
-uri = URI.parse(redis_url.nil? ? "redis://localhost:6379/" : redis_url)
+uri = URI.parse(ENV["REDISCLOUD_URL"])
 Resque.redis = Redis.new(:host => uri.host, :port => uri.port, :password => uri.password)
 
 Dir["#{Rails.root}/app/jobs/*.rb"].each { |file| require file }
