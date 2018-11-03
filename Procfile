@@ -1,3 +1,2 @@
-web: bundle exec passenger start -p $PORT --max-pool-size 3
-worker: env TERM_CHILD=1 QUEUE=* bundle exec rake resque:work
+web: bin/rails server -p $PORT -e $RAILS_ENV
 scheduler: bundle exec rake resque:scheduler
