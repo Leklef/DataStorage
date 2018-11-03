@@ -44,13 +44,6 @@ Rails.application.configure do
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
 
-  if ENV['REDISCLOUD_URL']
-    config.action_controller.perform_caching = true
-    config.cache_store = :redis_store
-  else
-    config.action_controller.perform_caching = false
-  end
-
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
