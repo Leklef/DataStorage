@@ -10,9 +10,10 @@ namespace :resque do
     require 'resque/scheduler'
 
     if ENV["REDISCLOUD_URL"]
-      $redis = Redis.new(url: ENV["REDISCLOUD_URL"])
+      redis_url = ENV["REDISCLOUD_URL"]
     end
-    Resque.redis = Rails.env.production? ? $redis : "localhost:6379"
+    uri = URI.parse(redis_url.nil? ? "redis://localhost:6379/" : redis_url)
+    Resque.redis = Redis.new(:host => uri.host, :port => uri.port, :password => uri.password)
 
     Resque.schedule = YAML.load_file("#{Rails.root}/config/rescue_schedule.yml")
   end
