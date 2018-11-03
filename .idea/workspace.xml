@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9760a37f-29d4-485e-a216-fb75685d5eb4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config/initializers/resque.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/resque.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tasks/resque.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/resque.rake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -65,8 +66,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="54" />
-          <entry key="rake" value="23" />
-          <entry key="rb" value="1970" />
+          <entry key="rake" value="24" />
+          <entry key="rb" value="1971" />
           <entry key="ru" value="12" />
           <entry key="txt" value="224" />
           <entry key="yml" value="100" />
@@ -75,7 +76,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="224" />
-          <entry key="Ruby" value="2059" />
+          <entry key="Ruby" value="2061" />
           <entry key="YAML" value="100" />
         </counts>
       </usages-collector>
@@ -133,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/resque.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="89" />
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -151,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/resque.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -213,8 +214,8 @@
         <option value="$PROJECT_DIR$/config/rescue_schedule.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/config/initializers/resque.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/resque.rake" />
+        <option value="$PROJECT_DIR$/config/initializers/resque.rb" />
       </list>
     </option>
   </component>
@@ -421,24 +422,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541214312322</updated>
-      <workItem from="1541214314399" duration="14860000" />
+      <workItem from="1541214314399" duration="14962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14860000" />
+    <option name="totallyTimeSpent" value="14962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" sideWeight="0.498779" weight="0.3299285" />
       <window_info anchor="bottom" id="Version Control" weight="0.3299285" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.4884005" visible="true" weight="0.3299285" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4884005" visible="true" weight="0.3299285" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.501221" side_tool="true" weight="0.3299285" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.497558" weight="0.3299285" />
@@ -612,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/resque.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -628,8 +622,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/resque.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/resque.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
