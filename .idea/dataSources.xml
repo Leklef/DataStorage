@@ -25,5 +25,13 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/DataStorage_production</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Rails DataStorage: default" uuid="c5b5e421-1543-4116-aa36-e601d12b0342">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/datastorage</jdbc-url>
+    </data-source>
   </component>
 </project>

@@ -4,15 +4,15 @@ class CreateAnimes < ActiveRecord::Migration[5.2]
       t.string :slug
       t.text :synopsis
       t.string :title
-      t.string :averageRating
-      t.integer :userCount
-      t.integer :favoritesCount
-      t.date :startDate
-      t.date :endDate
-      t.integer :popularityRank
-      t.integer :ratingRank
-      t.string :ageRatingGuide
-      t.string :coverImage
+      t.string :average_rating
+      t.integer :user_count
+      t.integer :favorites_count
+      t.date :start_date
+      t.date :end_date
+      t.integer :popularity_rank
+      t.integer :rating_rank
+      t.string :age_rating_guide
+      t.string :cover_image
       t.string :status
       t.string :subtype
 

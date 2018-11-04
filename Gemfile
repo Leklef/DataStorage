@@ -13,6 +13,11 @@ gem 'kaminari'
 gem 'resque'
 gem 'resque-scheduler'
 gem 'dalli', '~> 2.7.6'
+gem 'graphql'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -23,3 +28,5 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'graphiql-rails', group: :development
