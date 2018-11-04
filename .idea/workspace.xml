@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9760a37f-29d4-485e-a216-fb75685d5eb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/data_storage_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/data_storage_job.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -98,20 +98,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/jobs/data_storage_job.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="33" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -217,10 +217,10 @@
         <option value="$PROJECT_DIR$/app/graphql/types/query_type.rb" />
         <option value="$PROJECT_DIR$/app/graphql/types/anime_type.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181103043906_create_animes.rb" />
-        <option value="$PROJECT_DIR$/app/jobs/data_storage_job.rb" />
         <option value="$PROJECT_DIR$/config/rescue_schedule.yml" />
         <option value="$PROJECT_DIR$/config/initializers/resque.rb" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/app/jobs/data_storage_job.rb" />
       </list>
     </option>
   </component>
@@ -418,12 +418,12 @@
       <updated>1541214312322</updated>
       <workItem from="1541214314399" duration="17285000" />
       <workItem from="1541242312036" duration="747000" />
-      <workItem from="1541311172497" duration="8388000" />
+      <workItem from="1541311172497" duration="8551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26420000" />
+    <option name="totallyTimeSpent" value="26583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,17 +699,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/jobs/data_storage_job.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jobs/data_storage_job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
