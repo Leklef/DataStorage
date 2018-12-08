@@ -10,7 +10,7 @@ class DataStorageJob
     response = Net::HTTP.get(uri)
     json_data = JSON.parse(response)
     save_to_storage(json_data)
-    while json_data['links']['next'].present? && page_index < 30
+    while json_data['links']['next'].present?
       page_index += 1
       uri = URI(json_data['links']['next'])
       response = Net::HTTP.get(uri)
