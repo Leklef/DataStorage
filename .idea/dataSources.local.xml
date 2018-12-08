@@ -2,22 +2,19 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails DataStorage: development" uuid="e67e7859-5e58-4037-80d5-3706c208dcbe">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
-      <first-sync>true</first-sync>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0.0" />
       <user-name>lenar</user-name>
     </data-source>
     <data-source name="Rails DataStorage: test" uuid="502cfabc-3b0e-4ba6-9b64-ba93cb5f7a5a">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
-      <first-sync>true</first-sync>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0.0" />
       <user-name>lenar</user-name>
     </data-source>
     <data-source name="Rails DataStorage: production" uuid="b0a9b979-6ffa-460b-87bc-5049f9743dab">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
-      <first-sync>true</first-sync>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0.0" />
       <user-name>lenar</user-name>
     </data-source>
     <data-source name="Rails DataStorage: default" uuid="c5b5e421-1543-4116-aa36-e601d12b0342">
-      <database-info product="PostgreSQL" version="10.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="10.5">
+      <database-info product="PostgreSQL" version="10.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" dbms="POSTGRES" exact-version="10.5">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
