@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   end
 
   post "/graphql", to: "graphql#execute"
-  get "/update_db", to: "animes#fill_db"
+  get "/update_db", to: "v1/animes#fill_db"
   scope module: 'v1' do
     resources :animes, only: [:index, :show]
   end
