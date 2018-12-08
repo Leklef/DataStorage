@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/v1/animes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -396,12 +396,12 @@
       <workItem from="1543170774806" duration="87000" />
       <workItem from="1544270372490" duration="747000" />
       <workItem from="1544271736106" duration="1382000" />
-      <workItem from="1544273665698" duration="2798000" />
+      <workItem from="1544273665698" duration="2965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36166000" />
+    <option name="totallyTimeSpent" value="36333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +421,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.497558" weight="0.3299285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48779" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48779" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.39938712" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +429,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.498779" weight="0.3299285" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299285" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.492674" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.492674" weight="0.31428573" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.507326" side_tool="true" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -691,7 +691,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/v1/animes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
