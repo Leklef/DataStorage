@@ -14,6 +14,7 @@ module V1
 
     def fill_db
       DataStorageJob.perform
+      render :ok
     end
 
     private
