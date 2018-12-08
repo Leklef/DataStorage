@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   end
 
   post "/graphql", to: "graphql#execute"
-  get '/animes', to: 'v1/animes#index'
+  scope module: 'v1' do
+    resources :animes, only: [:index, :show]
+  end
 
 end

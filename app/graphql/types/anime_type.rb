@@ -5,7 +5,7 @@ module Types
     field :slug, String, null: true
     field :synopsis, String, null: true
     field :title, String, null: false
-    field :averageRating, String, null: true
+    field :average_rating, String, null: true
     field :user_count, Int, null: true
     field :favorites_count, Int, null: true
     field :popularity_rank, Int, null: true

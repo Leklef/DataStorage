@@ -16,9 +16,9 @@ module V1
 
     def anime_collection
       if params[:query].present?
-        Anime.where("LOWER(title) ILIKE '%#{params[:query].downcase}%'").page(params[:page].nil? ? 1 : params[:page][:number])
+        return Anime.where("LOWER(title) ILIKE '%#{params[:query].downcase}%'").page(params[:page].nil? ? 1 : params[:page][:number])
       else
-        Anime.page(params[:page].nil? ? 1 : params[:page][:number])
+        return Anime.page(params[:page].nil? ? 1 : params[:page][:number])
       end
     end
 
