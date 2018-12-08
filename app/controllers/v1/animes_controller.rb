@@ -5,18 +5,22 @@ module V1
   class AnimesController < ActionController::API
 
     def index
-      render json: anime_collection, status: :ok
+        render json: anime_collection, status: :ok
     end
 
     def show
       render json: Anime.find(params[:id]), status: :ok
     end
 
+    def fill_db
+      DataStorageJob.perform
+    end
+
     private
 
     def anime_collection
       if params[:query].present?
-        return Anime.where("LOWER(title) ILIKE '%#{params[:query].downcase}%'").page(params[:page].nil? ? 1 : params[:page][:number])
+        return Anime.where("LOWER(title) ILIKE '%#{params[:query].downcase}%'")
       else
         return Anime.page(params[:page].nil? ? 1 : params[:page][:number])
       end
@@ -26,6 +30,5 @@ module V1
       render json: { errors: ErrorSerializer.serialize(object) },
              status: :unprocessable_entity
     end
-
   end
 end
